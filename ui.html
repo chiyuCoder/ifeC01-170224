@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+    <title>uiColor</title>
+    <meta charset="utf-8"/>
+    <link href="css/color.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div class="main">
+        <div class="acb">
+            <div class="colorValue fl">
+                <div class="rgbValue">
+                    <div>
+                        <label for = "colorR">R:</label>
+                        <input id = "colorR" type="number" max="255" min="0" placeholder="0">
+                    </div>
+                    <div>
+                        <label for = "colorG">G:</label>
+                        <input id = "colorG" type="number" max="255" min="0" placeholder="0">
+                    </div>
+                    <div>
+                        <label for = "colorB">B:</label>
+                        <input id = "colorB" type="number" max="255" min="0" placeholder="0">
+                    </div>        
+                </div>
+                <div class="hsbValue">
+                    <div>
+                        <label for = "colorH">H:</label>
+                        <input id = "colorH" type="number" max="360" min="0" placeholder="0">
+                    </div>
+                    <div>
+                        <label for = "colorS">S:</label>
+                        <input id = "colorS" type="number" max="100" min="0" placeholder="0">
+                    </div>
+                    <div>
+                        <label for = "colorBr">B:</label>
+                        <input id = "colorBr" type="number" max="100" min="0" placeholder="0">
+                    </div>
+                </div>
+            </div>
+            <div class="showColor fr"></div>
+        </div>
+        <div class="acb">
+            <div class="fl">
+                <div id="colorStick">
+                    <div id ="selectClr"></div>
+                </div>
+            </div>
+            <div class="fr">
+                <div class="bgSquare">
+                    <div class="blackSquare"></div>
+                    <div class="whiteSquare"></div>
+                    <div class="chooseClr"></div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/uiColor.js"></script>
+</body>
+</html>
